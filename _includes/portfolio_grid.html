@@ -1,0 +1,58 @@
+<!-- Portfolio Grid Section -->
+    <section id="portfolio",>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-left">
+                    <h2 class="section-heading">Research</h2>
+                    <h3>Recent Topics</h3>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:-20px;">
+            {% for post in site.posts %}
+                <div class="col-md-4 col-sm-6 portfolio-item" >
+                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="asset/img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt=""
+                        style="width:600px;height:250px;">
+                    </a>
+                    <div class="portfolio-caption">
+                        <p>{{ post.title }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+            </div>
+            <h3 >Publications</h3>
+            <ol reversed class="publications" style="margin-bottom:-200px;">
+                <li>
+                    <strong>Reforcement Learning for Intra-and-Inter-Bank Borrowing and Lending Mean Field Control Game</strong>.
+                     A. Angiuli, N. Detering, J.-P. Fouque, M. Laurière and J. Lin.
+                     <a href="https://dl.acm.org/doi/10.1145/3533271.3561743" target="_blank">ICAIF22 Best Paper Award</a>. 2022
+                </li>
+                <li><strong>Reinforcement Learning Algorithm for Mixed Mean Field Control Games</strong>.
+                    A. Angiuli, N. Detering, J.-P. Fouque, M. Laurière and J. Lin.
+                    <a href="https://arxiv.org/abs/2205.02330" target="_blank">arXiv:2205.02330</a>. 2022
+                </li>
+                <li>
+                    <strong>Percolation in Random Graphs of Unbounded Rank</strong>.
+                    N. Detering and J. Lin.
+                    <a href="https://arxiv.org/abs/2205.14782" target="_blank">arXiv:2205.14782</a>. 2022 
+                </li>
+                <li>
+                    <strong>On Carr and Lee’s Correlation Immunization Strategy</strong>.
+                    J. Lin and M. Lorig.
+                    <a href="https://doi.org/10.1080/1350486X.2019.1598276" target="_blank">Applied Mathematical Finance</a>. 2019
+                </li>
+                <li>
+                    <strong>The Quadrant Probabilities of Paired Financial Time Series</strong>.
+                    J. Lin. <a href="https://dx.doi.org/10.2139/ssrn.3185813" target="_blank">SSRN:3185813</a>. 2018
+                </li>
+            </ol>
+            <br>
+        </div>
+    </section>
+
+

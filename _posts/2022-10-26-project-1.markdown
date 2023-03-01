@@ -1,0 +1,12 @@
+---
+title: Reinforcement Learning for Intra-and-Inter-Bank Borrowing and Lending Mean Field Control Game
+layout: default
+modal-id: 1
+date: 2022-10-26
+img: mfcg_bank.png
+thumbnail: mfcg_bank.png
+alt: mfcg_bank
+author: A. Angiuli, N. Detering, J.-P. Fouque, M. Lauri&egravere, J. Lin
+link: <a href="https://dl.acm.org/doi/10.1145/3533271.3561743" target="_blank">ICAIF22 Best Paper Award</a>
+description: We propose a mean field control game (MFCG) model for the intra-and-inter-bank borrowing and lending problem. This framework allows to study the competitive game arising between groups of collaborative banks. The solution is provided in terms of an asymptotic Nash equilibrium between the groups in the infinite horizon. A three-timescale reinforcement learning algorithm is applied to learn the optimal borrowing and lending strategy in a data driven way when the model is unknown. An empirical numerical analysis shows the importance of the three-timescale, the impact of the exploration strategy when the model is unknown, and the convergence of the algorithm.
+---

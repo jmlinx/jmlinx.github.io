@@ -1,0 +1,13 @@
+---
+title: Percolation in Random Graphs of Unbounded Rank
+layout: default
+modal-id: 3
+date: 2022-05-29
+img: bprg.png
+thumbnail: bprg.png
+alt: bprg
+author: N. Detering, J. Lin
+link:  <a href="https://arxiv.org/abs/2205.14782" target="_blank">arXiv:2205.14782</a>
+description: Bootstrap percolation in (random) graphs is a contagion dynamics among a set of vertices with certain threshold levels. The process is started by a set of initially infected vertices, and an initially uninfected vertex with threshold k gets infected as soon as the number of its infected neighbors exceeds k. This process has been studied extensively in so called \textit{rank one} models. These models can generate random graphs with heavy-tailed degree sequences but they are not capable of clustering. In this paper, we treat a class of random graphs of unbounded rank which allow for extensive clustering. Our main result determines the final fraction of infected vertices as the fixed point of a non-linear operator defined on a suitable function space. We propose an algorithm that facilitates neural networks to calculate this fixed point efficiently. We further derive criteria based on the Fréchet derivative of the operator that allows one to determine whether small infections spread through the entire graph or rather stay local.
+
+---

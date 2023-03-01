@@ -1,0 +1,18 @@
+# Site settings
+title: Jimin Lin's Homepage
+email: jmlinxx@gmail.com
+description: "Jimin Lin's Homepage"
+
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: https://github.com/jmlinx
+  - title: linkedin
+    url: https://www.linkedin.com/in/jm-lin/
+  - title: envelope
+    url: mailto:jmlinxx@gmail.com
+
+# Build settings
+markdown: kramdown
+permalink: pretty

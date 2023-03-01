@@ -1,0 +1,13 @@
+---
+title: Reinforcement Learning Algorithm for Mixed Mean Field Control Games
+layout: default
+modal-id: 2
+date: 2022-10-22
+img: mfcg_trader.png
+thumbnail: mfcg_trader.png
+alt: mfcg_trader
+author: A. Angiuli, N. Detering, J.-P. Fouque, M. Lauri&egravere, J. Lin
+link: <a href="https://arxiv.org/abs/2205.02330" target="_blank">arXiv:2205.02330</a>
+description: We present a new combined mean field control game (MFCG) problem which can be interpreted as a competitive game between collaborating groups and its solution as a Nash equilibrium between groups. Players coordinate their strategies within each group. An example is a modification of the classical trader’s problem. Groups of traders maximize their wealth. They face cost for their transactions, for their own terminal positions, and for the average holding within their group. The asset price is impacted by the trades of all agents. We propose a three-timescale reinforcement learning algorithm to approximate the solution of such MFCG problems. We test the algorithm on benchmark linear-quadratic specifications for which we provide analytic solutions.
+
+---
