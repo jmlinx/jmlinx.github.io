@@ -38,7 +38,11 @@ a.active {
 
 a {
     color: #{{ site.data.template.color.secondary }};
-    text-decoration: underline
+    text-decoration: underline;
+}
+a.page-scroll {
+    color: #{{ site.data.template.color.secondary }};
+    text-decoration: none;
 }
 
 a:hover,
