@@ -286,15 +286,29 @@ header .intro-image{
     background-attachment: fixed;
     background-position: auto;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     padding-bottom: 70%;
 }
-@media screen and (min-width: 1800px) {
+
+
+@media screen and (max-width: 1800px) {
     header .intro-image {
-        background-size: cover;
-        padding-bottom: 70%;
+        background-size: contain;
     }
 }
+
+@media screen and (max-height: 1200px) {
+    header .intro-image {
+        background-size: cover;
+    }
+}
+
+@media screen and  (max-width: 600px) {
+    header .intro-image {
+        background-size: contain;
+    }
+}
+
 
 
 header .intro-text {
